@@ -1,3 +1,10 @@
+/**
+ * Ale Sierra #24405
+ * Clase que crea un mapa dependiendo del tipo de mapa que se le pase
+ * tiene un método getMap que recibe un string y devuelve un mapa
+ */
+
+
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -13,7 +20,7 @@ public class MapFactory {
             case "LinkedMap":
                 return new LinkedHashMap<>();
             default:
-                throw new IllegalArgumentException("Tipo de mapa no soportado: " + tipoMapa);
+                throw new IllegalArgumentException("Este tipo de mapa no se encuentra entre las opciones");
         }
     }
 }

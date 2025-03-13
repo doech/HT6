@@ -1,3 +1,8 @@
+/**
+ * Ale Sierra #24405
+ * CLase que lee el archivo csv y carga los datos en un mapa y una lista
+ * tiene métodos para mostrar los pokemones ordenados por tipo1, buscar pokemones por habilidad, agregar pokemones y eliminar pokemones
+ */
 
 import java.io.BufferedReader;
 import java.io.FileReader;

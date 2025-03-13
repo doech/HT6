@@ -1,3 +1,8 @@
+/**
+ * Ale Sierra #24405
+ * Clase que implementa la interfaz IMap y utiliza un LinkedHashMap para almacenar los pokemones
+ */
+
 import java.util.LinkedHashMap;
 
 public class PLinkedHashMap implements IMap {

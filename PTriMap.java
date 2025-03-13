@@ -1,3 +1,7 @@
+/**
+ * Ale Sierra #24405
+ * Clase que implementa la interfaz IMap y utiliza un TreeMap para almacenar los pokemones
+ */
 import java.util.TreeMap;
 
 public class PTriMap implements IMap {

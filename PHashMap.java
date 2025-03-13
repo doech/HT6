@@ -1,3 +1,8 @@
+/**
+ * Ale Sierra #24405
+ * Clase que implementa la interfaz IMap y utiliza un HashMap para almacenar los pokemones
+ */
+
 import java.util.HashMap;
 
 public class PHashMap implements IMap {
